@@ -1,0 +1,3 @@
+# Local backups and automatic check output
+*.before-*.md
+env_check_raw.md

@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-29T07:39:32+00:00",
+  "os": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "AMD64"
+  },
+  "cpu": {
+    "name": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+    "logical_cores": 4
+  },
+  "memory": {
+    "total_gb": 7.7
+  },
+  "disk": {
+    "path": "C:\\",
+    "total_gb": 452.2,
+    "free_gb": 321.8
+  },
+  "gpu": {
+    "available": false,
+    "reason": "GPU 없음: nvidia-smi 명령을 찾을 수 없음(NVIDIA GPU 또는 드라이버 없음)",
+    "devices": []
+  },
+  "python": {
+    "version": "3.12.15",
+    "implementation": "CPython",
+    "in_project_venv": true,
+    "venv_location": ".venv"
+  },
+  "env": {
+    "OLLAMA_HOST": {
+      "value": "http://localhost:11434",
+      "source": ".env 또는 환경변수"
+    },
+    "OLLAMA_MODEL": {
+      "value": "qwen3:0.6b",
+      "source": ".env 또는 환경변수"
+    }
+  }
+}
